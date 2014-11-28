@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Npm.depends({
-    mandrill-api: '1.0.41'
+    "mandrill-api": '1.0.41'
 });
 
 Package.onUse(function(api) {
