@@ -3,10 +3,6 @@ meteor-mandrill
 
 Mandrill REST api packaged for Meteor
 
-
-
-#nexmo-sms
-
 ##Install
 ```bach
 meteor add risul:mandrill
