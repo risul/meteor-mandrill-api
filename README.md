@@ -1,7 +1,7 @@
 meteor-mandrill
 ===============
 
-Mandrill REST api packaged for Meteor
+Mandrill REST api (NodeJS) packaged for Meteor
 
 ##Install
 ```bach

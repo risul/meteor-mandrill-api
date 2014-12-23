@@ -1,7 +1,7 @@
 Package.describe({
     name: 'risul:mandrill',
     summary: 'Mandrill REST api packaged for Meteor',
-    version: '1.0.0',
+    version: '1.0.9',
     git: 'git@github.com:risul/meteor-mandrill.git'
 });
 
@@ -10,6 +10,7 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-    api.versionsFrom('1.0');
-    api.addFiles('mandrill.js', 'server');
+    api.versionsFrom('METEOR@0.9.2.2');
+    api.export('Mandrill');
+    api.addFiles('lib/mandrill.js', 'server');
 });
