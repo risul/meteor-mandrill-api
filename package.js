@@ -1,8 +1,8 @@
 Package.describe({
     name: 'risul:mandrill',
     summary: 'Mandrill REST api packaged for Meteor',
-    version: '1.0.9',
-    git: 'git@github.com:risul/meteor-mandrill.git'
+    version: '1.1.2',
+    git: 'https://github.com/risul/meteor-mandrill-api'
 });
 
 Npm.depends({
