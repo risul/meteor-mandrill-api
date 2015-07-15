@@ -54,7 +54,7 @@ You can also add a `defaults` section with default sender name and e-mail
         },
         
         "defaults": {
-            "from_name": YOUR_APP_NAME",
+            "from_name": "YOUR_APP_NAME",
             "from_email": "DEFAULT_E-MAIL_ADDRESS"
         }
     }
